@@ -2,12 +2,11 @@
 
 def fizzbuzz(n)
   if n % 3 == 0 
-    "Fizz"
+    return "Fizz"
   elsif n % 5 == 0 
-    "Buzz"
+    return "Buzz"
   else n % 15 == 0
-     "FizzBuzz"
+     return"FizzBuzz"
   end
 end
 
-fizzbuzz(n)
