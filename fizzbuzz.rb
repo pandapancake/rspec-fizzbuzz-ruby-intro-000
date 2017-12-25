@@ -4,3 +4,7 @@ def fizz_buzz(n)
   if n % 3 = 0 && n % 5 != 0 && n % 15 != 0
     puts "Fizz"
   elsif n % 3 != 0 && n % 5 = 0 && n % 15 !=0
+    puts "Buzz"
+  else n % 3 != 0 && n % 5 != 0 && n % 15 =0
+    puts "FizzBuzz"
+end
