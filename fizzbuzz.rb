@@ -9,3 +9,5 @@ def fizzbuzz(n)
      "FizzBuzz"
   end
 end
+
+fizzbuzz(n)
