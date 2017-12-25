@@ -5,6 +5,6 @@ def fizzbuzz(n)
     puts "Fizz"
   elsif n % 5 == 0 
     puts "Buzz"
-  else  n % 3 == 0
+  else  n % 3 == 0 && n % 5 == 0
     puts "FizzBuzz"
 end
